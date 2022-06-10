@@ -25,7 +25,11 @@ h1 {
 h2 {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937
+    color: #1F2937;
+}
+.content-2 {
+    text-align: center;
+
 }
 button {
     color: #3882F6;
@@ -40,14 +44,38 @@ em {
     font-size: 36px;
     font-style: italic;
 }
+#quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+}
 .call {
     display: flex;
     justify-content: center;
     background-color: #3882F6;
 }
 .footer {
-    flex-direction: column;
     color:#E5E7EB;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+
+}
+.info {
+    max-width: 200px;
+
+}
+.info img {
+    border: #3882F6;
 }
