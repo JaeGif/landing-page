@@ -17,6 +17,7 @@ h1 {
 #paragraph-text {
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 400px;
 }
 #logo {
     font-size: 24px;
@@ -29,10 +30,19 @@ h2 {
 }
 .content-2 {
     text-align: center;
+    padding-bottom: 40px;
 
 }
 button {
-    color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 550;
+    background-color: #3882F6;
+    border-radius: 5px;
+    height: 30px;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none
 }
 .content-3 {
     display: flex;
@@ -53,6 +63,7 @@ em {
 .call {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #3882F6;
     margin-bottom:30px;
 }
@@ -85,4 +96,6 @@ em {
     justify-content: center;
     align-items: center;
     gap: 108px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
