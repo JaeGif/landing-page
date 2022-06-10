@@ -3,7 +3,8 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    gap: 100px;
+    gap: 300px;
+    margin-left: -40px;
 }
 .footer, .hero {
     background-color: #1F2937;
@@ -26,7 +27,6 @@ h1 {
 #logo {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: -60px;
 }
 h2 {
     font-size: 36px;
@@ -111,4 +111,8 @@ em {
 }
 #cta-button {
     border: 1px solid white;
+}
+a {
+    list-style: none;
+    text-decoration: none;
 }
