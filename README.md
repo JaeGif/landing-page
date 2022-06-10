@@ -5,4 +5,7 @@ This project is an HTML/CSS exclusive. Here I'm practicing using HTML and CSS fe
 2. The Box Model of CSS
 3. Flexbox tools
 
-In order to make a full landing page for a website.
+This webpage uses images from One Piece official sources,  including Shueishia, Toei Animation, Eichiro Oda, and Shonen Jump.
+
+Some images are fan-sourced, but I was unable to find proper citations.
+
