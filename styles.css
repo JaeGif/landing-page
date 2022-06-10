@@ -31,6 +31,9 @@ button {
     color: #3882F6;
 }
 .content-3 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
     background-color: #E5E7EB;
 }
 em {
@@ -38,6 +41,8 @@ em {
     font-style: italic;
 }
 .call {
+    display: flex;
+    justify-content: center;
     background-color: #3882F6;
 }
 .footer {
