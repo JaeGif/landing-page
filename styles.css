@@ -28,7 +28,7 @@ h1 {
     font-size: 24px;
     color: #F9FAF8;
 }
-h2 {
+#Big4 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -70,7 +70,7 @@ em {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    margin-bottom:30px;
+    margin-bottom:60px;
 }
 .footer {
     color:#E5E7EB;
@@ -78,7 +78,7 @@ em {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 30px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,10 +109,34 @@ em {
     justify-content: center;
     gap: 20px;
 }
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 50px;
+    border-radius: 12px;
+
+}
 #cta-button {
     border: 1px solid white;
 }
 a {
     list-style: none;
     text-decoration: none;
+}
+.cta-text {
+    color: #E5E7EB;
+}
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 56px;
+}
+button:hover {
+    color: red;
+    background-color: #E5E7EB;
 }
