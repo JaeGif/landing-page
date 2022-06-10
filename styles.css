@@ -4,7 +4,7 @@ ul {
 .footer, .hero {
     background-color: #1F2937;
 }
-.hero, .content-1, .content-2, .content-3 {
+.hero, .content-2, .content-3 {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -79,4 +79,10 @@ em {
 .info img {
     border: 5px solid #3882F6;
     border-radius: 12px;
+}
+.content-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 108px;
 }
