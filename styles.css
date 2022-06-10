@@ -109,3 +109,6 @@ em {
     justify-content: center;
     gap: 20px;
 }
+#cta-button {
+    border: 1px solid white;
+}
