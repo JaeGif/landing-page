@@ -1,142 +1,146 @@
 /* My styles generally go from top to bottom of the HTML doc */
+
+body {
+  margin: 0;
+}
 ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    gap: 300px;
-    margin-left: -40px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 300px;
+  margin-left: -40px;
 }
-.footer, .hero {
-    background-color: #1F2937;
+.footer,
+.hero {
+  background-color: #1f2937;
 }
-.hero, .content-2, .content-3 {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+.hero,
+.content-2,
+.content-3 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 h1 {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: bolder;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
 }
 #paragraph-text {
-    font-size: 18px;
-    color: #E5E7EB;
-    max-width: 400px;
+  font-size: 18px;
+  color: #e5e7eb;
+  max-width: 400px;
 }
 #logo {
-    font-size: 24px;
-    color: #F9FAF8;
+  font-size: 24px;
+  color: #f9faf8;
 }
 #Big4 {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
 }
 .content-2 {
-    text-align: center;
-    padding-bottom: 40px;
-
+  text-align: center;
+  padding-bottom: 40px;
 }
 button {
-    color: #E5E7EB;
-    font-weight: 550;
-    background-color: #3882F6;
-    border-radius: 5px;
-    height: 30px;
-    width: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: none
+  color: #e5e7eb;
+  font-weight: 550;
+  background-color: #3882f6;
+  border-radius: 5px;
+  height: 30px;
+  width: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
 }
 .content-3 {
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    background-color: #E5E7EB;
-    min-height: auto;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  min-height: auto;
 }
 .quote-container {
-    display: flex;
-    justify-content: center;
-    max-width: 430px;
+  display: flex;
+  justify-content: center;
+  max-width: 430px;
 }
 em {
-    font-size: 36px;
-    font-style: italic;
+  font-size: 36px;
+  font-style: italic;
 }
 .call {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #3882F6;
-    margin-bottom:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  margin-bottom: 40px;
 }
 .footer {
-    color:#E5E7EB;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  color: #e5e7eb;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .images {
-    display: flex;
-    justify-content: center;
-    gap: 52px;
-
+  display: flex;
+  justify-content: center;
+  gap: 52px;
 }
 .info {
-    max-width: 200px;
+  max-width: 200px;
 }
 .info img {
-    border: 5px solid #3882F6;
-    border-radius: 12px;
+  border: 5px solid #3882f6;
+  border-radius: 12px;
 }
 .content-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 108px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 108px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .link-list {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 .call {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    width: fit-content;
-    height: fit-content;
-    padding: 10px 50px;
-    border-radius: 12px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 50px;
+  border-radius: 12px;
 }
 #cta-button {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 a {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
 .cta-text {
-    color: #E5E7EB;
+  color: #e5e7eb;
 }
 .cta-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 56px;
 }
 button:hover {
-    color: red;
-    background-color: #E5E7EB;
+  color: red;
+  background-color: #e5e7eb;
 }
